@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 
+//trim attributes will trim all spaces.
 var Todo = mongoose.model('Todo', {
   text: {
     type: String,
