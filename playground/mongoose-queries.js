@@ -10,8 +10,6 @@ const {User} = require('./../server/models/user');
 //   console.log('ID not valid');
 // }
 
-//mongoose will convert id to OBjectID
-
 // Todo.find({
 //   _id: id
 // }).then((todos) => {
